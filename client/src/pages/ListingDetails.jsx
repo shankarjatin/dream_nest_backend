@@ -75,7 +75,7 @@ const ListingDetails = () => {
         totalPrice: listing.price * dayCount,
       }
 
-      const response = await fetch("https://dream-nest-backend-omqs.onrender.com/bookings/create", {
+      const response = await fetch("https://dream-nest-backend-s8v7.onrender.com/bookings/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
