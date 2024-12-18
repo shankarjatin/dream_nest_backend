@@ -18,7 +18,7 @@ const CategoryPage = () => {
   const getFeedListings = async () => {
     try {
       const response = await fetch(
-          https://dream-nest-backend-s8v7.onrender.com/properties?category=${category}`,
+          `https://dream-nest-backend-s8v7.onrender.com/properties?category=${category}`,
         {
           method: "GET",
         }
