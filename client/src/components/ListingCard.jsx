@@ -50,7 +50,7 @@ const ListingCard = ({
   const patchWishList = async () => {
     if (user?._id !== creator._id) {
     const response = await fetch(
-      `https://dream-nest-backend-s8v7.onrender.com/users/${user?._id}/${listingId}`,
+      `https://dream-nest-backend-omqs.onrender.com/users/${user?._id}/${listingId}`,
       {
         method: "PATCH",
         header: {
@@ -78,7 +78,7 @@ const ListingCard = ({
           {listingPhotoPaths?.map((photo, index) => (
             <div key={index} className="slide">
               <img
-                src={`https://dream-nest-backend-s8v7.onrender.com/${photo?.replace("public", "")}`}
+                src={`https://dream-nest-backend-omqs.onrender.com/${photo?.replace("public", "")}`}
                 alt={`photo ${index + 1}`}
               />
               <div

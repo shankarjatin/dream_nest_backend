@@ -18,8 +18,8 @@ const Listings = () => {
     try {
       const response = await fetch(
         selectedCategory !== "All"
-          ? `https://dream-nest-backend-s8v7.onrender.com/properties?category=${selectedCategory}`
-          : "https://dream-nest-backend-s8v7.onrender.com/properties",
+          ? `https://dream-nest-backend-omqs.onrender.com/properties?category=${selectedCategory}`
+          : "https://dream-nest-backend-omqs.onrender.com/properties",
         {
           method: "GET",
         }
