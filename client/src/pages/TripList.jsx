@@ -17,7 +17,7 @@ const TripList = () => {
   const getTripList = async () => {
     try {
       const response = await fetch(
-        `https://dream-nest-backend-omqs.onrender.com/users/${userId}/trips`,
+        `https://dream-nest-backend-wmy2.onrender.com/users/${userId}/trips`,
         {
           method: "GET",
         }
